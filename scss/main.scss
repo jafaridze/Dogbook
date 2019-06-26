@@ -1,0 +1,148 @@
+.dogbook {
+    height: 55px;
+
+    .fas {
+        font-size: 17px;
+        color: #707070;
+
+    }
+
+    .fa {
+        font-size: 17px;
+        width: 38px;
+        color: #707070;
+    }
+
+    h3 {
+        color: #707070;
+    }
+}
+
+// slider
+.slider {
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 20px !important;
+        border-top: 0px;
+        border-bottom: 0px;
+        color: #FF5E20;
+    }
+
+    .image-text {
+        bottom: 237px;
+        left: 154px;
+    }
+
+    .background {
+        height: 100%;
+        width: 100%;
+
+        top: 0px;
+        opacity: 0.3;
+        background: #707070;
+    }
+
+    a {
+        width: 5%;
+    }
+
+    .slider-button-left {
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        transform: rotate(45deg);
+        border-radius: 5px;
+
+        .fa-chevron-left {
+            transform: rotate(-41deg);
+            color: #000;
+
+        }
+    }
+
+    .slider-button-right {
+        width: 30px;
+        height: 30px;
+        background: #000;
+        transform: rotate(41deg);
+        border-radius: 5px;
+
+        .fa-chevron-right {
+            transform: rotate(-41deg);
+
+        }
+    }
+
+    .line {
+        width: 517px;
+        height: 4px;
+        background-color: #FF5E20;
+    }
+}
+
+.about-section {
+
+    .about-the-project {
+        width: 100%;
+    }
+
+    padding: 40px 0px 40px 0px;
+
+
+
+    h3 {
+        font-size: 25px;
+        color: #707070;
+    }
+
+    h6 {
+        font-size: 12px;
+        color: #707070;
+    }
+
+    .text {
+
+        width: 70%;
+        margin: 56px 56px;
+    }
+
+    p {
+        font-size: 16px;
+
+        color: #707070;
+
+    }
+
+    .button {
+        width: 113px;
+        height: 30px;
+        background: #FDB523;
+        border-radius: 5px;
+        align-self: flex-end;
+        cursor: pointer;
+
+        img {
+            width: 20px;
+        }
+
+        h6 {
+            margin: 0px;
+            font-size: 12px;
+        }
+    }
+
+    .fb-messenger {
+        top: 40px;
+        right: 0px;
+        padding: 0px 10px 0px 10px;
+
+        .fa-facebook-messenger {
+            font-size: 50px;
+            color: #007FFF;
+           
+
+        }
+    }
+
+}
