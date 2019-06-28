@@ -1,3 +1,4 @@
+
 .dogbook {
     height: 55px;
 
@@ -32,6 +33,7 @@
     .image-text {
         bottom: 237px;
         left: 154px;
+        z-index: 1;
     }
 
     .background {
@@ -43,9 +45,7 @@
         background: #707070;
     }
 
-    a {
-        width: 5%;
-    }
+
 
     .slider-button-left {
         width: 30px;
@@ -73,6 +73,9 @@
 
         }
     }
+    .control{
+        width: 5%;
+    }
 
     .line {
         width: 517px;
@@ -80,6 +83,8 @@
         background-color: #FF5E20;
     }
 }
+
+// about-section
 
 .about-section {
 
@@ -97,7 +102,7 @@
     }
 
     h6 {
-        font-size: 12px;
+        font-size: 12px; 
         color: #707070;
     }
 
@@ -114,23 +119,8 @@
 
     }
 
-    .button {
-        width: 113px;
-        height: 30px;
-        background: #FDB523;
-        border-radius: 5px;
-        align-self: flex-end;
-        cursor: pointer;
 
-        img {
-            width: 20px;
-        }
 
-        h6 {
-            margin: 0px;
-            font-size: 12px;
-        }
-    }
 
     .fb-messenger {
         top: 40px;
@@ -140,9 +130,37 @@
         .fa-facebook-messenger {
             font-size: 50px;
             color: #007FFF;
-           
+
 
         }
     }
 
 }
+
+// button
+.button {
+    width: 113px;
+    height: 30px;
+    background: #FDB523;
+    border-radius: 7px;
+    cursor: pointer;
+    color: red;
+    font-size: 12px;
+    color: #fff !important;
+
+
+
+    &:before {
+        content: "";
+        background-image: url("../images/dog-paw.png");
+        color: #cccccc;
+        height: 21px;
+        width: 21px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 5px;
+    }
+
+}
+
