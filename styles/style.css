@@ -202,6 +202,97 @@ table {
   padding-top: 53px;
   margin: 0px; }
 
+.bg-dog {
+  height: 599px; }
+  .bg-dog .img-dog {
+    background-image: url("../images/NoPath - Copy.png");
+    height: 509px;
+    width: 799px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -44px; }
+
+.black-dog {
+  background-image: url("../images/NoPath - Copy (6).png");
+  height: 512px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.Clinics {
+  background: #F8F8F8; }
+  .Clinics h4 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #474747; }
+  .Clinics .bg-clinics {
+    background-image: url("../images/NoPath123.png");
+    height: 564px;
+    width: 402px;
+    background-position: center;
+    background-repeat: no-repeat; }
+
+.footer-section {
+  margin-top: 59px;
+  margin-bottom: 59px; }
+  .footer-section h2 {
+    font-size: 30px;
+    color: #474747; }
+  .footer-section .mail-number a {
+    color: #474747;
+    margin-left: 10px; }
+    .footer-section .mail-number a:before {
+      content: "";
+      background-image: url("../images/Group 102.png");
+      height: 14px;
+      width: 19px;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-right: 10px; }
+  .footer-section .mail-number p {
+    color: #474747;
+    margin-top: 30px; }
+    .footer-section .mail-number p:before {
+      content: "";
+      background-image: url("../images/phone-call@2x.png");
+      height: 19px;
+      width: 19px;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      background-size: cover;
+      margin-left: 10px;
+      margin-right: 10px; }
+
+.grey-section {
+  background: #D5D5D5;
+  height: 30px;
+  width: 100%; }
+  .grey-section p {
+    color: #fff;
+    font-size: 12px;
+    margin: 0px; }
+
+.icon .icon1 {
+  background-image: url("../images/Group 330@2x.png");
+  height: 23px;
+  width: 23px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.icon .icon2 {
+  background-image: url("../images/instagram (1)@2x.png");
+  height: 23px;
+  width: 23px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 19px; }
+
 .button {
   width: 113px;
   height: 30px;

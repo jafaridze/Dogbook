@@ -267,7 +267,147 @@
     padding-bottom: 53px;
     padding-top: 53px;
     margin: 0px;
+
 }
+
+.bg-dog {
+    height: 599px;
+
+    .img-dog {
+        background-image: url("../images/NoPath\ -\ Copy.png");
+        height: 509px;
+        width: 799px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: -44px;
+    }
+}
+
+// black-dog
+.black-dog {
+    background-image: url("../images/NoPath\ -\ Copy\ \(6\).png");
+    height: 512px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// clinics
+.Clinics {
+    background: #F8F8F8;
+
+    h4 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        color: #474747;
+    }
+
+    .bg-clinics {
+        background-image: url("../images/NoPath123.png");
+        height: 564px;
+        width: 402px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+// footer-section
+.footer-section {
+    margin-top: 59px;
+    margin-bottom: 59px;
+
+    h2 {
+        font-size: 30px;
+        color: #474747;
+
+    }
+
+    .mail-number {
+
+        a {
+            color: #474747;
+            margin-left: 10px;
+
+            &:before {
+                content: "";
+                background-image: url("../images/Group\ 102.png");
+                height: 14px;
+                width: 19px;
+                background-position: center;
+                background-repeat: no-repeat;
+                display: inline-block;
+                margin-right: 10px;
+              
+
+            }
+
+        }
+
+        p {
+            color: #474747;
+            margin-top: 30px;
+           
+
+            &:before {
+                content: "";
+                background-image: url("../images/phone-call@2x.png");
+                height: 19px;
+                width: 19px;
+                background-position: center;
+                background-repeat: no-repeat;
+                display: inline-block;
+                background-size: cover;
+                margin-left: 10px;
+                margin-right: 10px;
+               
+
+
+
+            }
+        }
+    }
+
+}
+
+.grey-section {
+    background: #D5D5D5;
+    height: 30px;
+    width: 100%;
+
+    p {
+        color: #fff;
+        font-size: 12px;
+        margin: 0px;
+    }
+}
+
+
+.icon {
+
+    .icon1 {
+        background-image: url("../images/Group\ 330@2x.png");
+        height: 23px;
+        width: 23px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    .icon2 {
+        background-image: url("../images/instagram (1)@2x.png");
+        height: 23px;
+        width: 23px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 19px;
+    }
+}
+
 
 
 // button
