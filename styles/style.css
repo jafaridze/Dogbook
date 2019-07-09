@@ -37,6 +37,9 @@ table {
 * {
   box-sizing: border-box; }
 
+body, html {
+  height: 100%; }
+
 .dogbook {
   height: 55px; }
   .dogbook .fas {
@@ -55,7 +58,7 @@ table {
   border-radius: 20px !important;
   border-top: 0px;
   border-bottom: 0px;
-  color: #FF5E20; }
+  color: #ff5e20; }
 
 .slider .image-text {
   bottom: 237px;
@@ -94,12 +97,12 @@ table {
 .slider .line {
   width: 517px;
   height: 4px;
-  background-color: #FF5E20; }
+  background-color: #ff5e20; }
 
 .about-section .background-blu {
   width: 100%;
   height: 100%;
-  background: #00FFFF;
+  background: #00ffff;
   opacity: 0.05; }
 
 .about-section .content {
@@ -132,17 +135,22 @@ table {
   padding: 0px 10px 0px 10px; }
   .about-section .fb-messenger .fa-facebook-messenger {
     font-size: 50px;
-    color: #007FFF; }
+    color: #007fff; }
+
+.dogs .row {
+  margin-right: -30px; }
 
 .dogs h4 {
   color: #474747;
   font-size: 25px;
-  margin: 53px auto; }
+  margin-top: 53px;
+  margin-bottom: 53px; }
 
 .dogs .col-4 {
   width: 100%;
   padding: 0px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-right: 0px; }
 
 .dogs .img-box {
   margin-right: 30px; }
@@ -156,7 +164,7 @@ table {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px; }
     .dogs .img-box .text-box a {
-      color: #FF7A00; }
+      color: #ff7a00; }
     .dogs .img-box .text-box .text {
       margin-top: 22px;
       margin-bottom: 28px;
@@ -164,7 +172,7 @@ table {
     .dogs .img-box .text-box p {
       margin: 0px; }
     .dogs .img-box .text-box .number {
-      color: #FF7A00; }
+      color: #ff7a00; }
 
 .col-12 a {
   background-color: #fff; }
@@ -172,7 +180,7 @@ table {
 .digital-passport .background-green {
   width: 100%;
   height: 100%;
-  background: #00FFFF;
+  background: #00ffff;
   opacity: 0.05; }
 
 .digital-passport .green-container {
@@ -194,7 +202,7 @@ table {
 .background-purple {
   width: 100%;
   height: 100%;
-  background: #4464FF;
+  background: #4464ff;
   opacity: 0.05; }
 
 .trade h4 {
@@ -222,7 +230,7 @@ table {
   background-size: cover; }
 
 .Clinics {
-  background: #F8F8F8; }
+  background: #f8f8f8; }
   .Clinics h4 {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -268,7 +276,7 @@ table {
       margin-right: 10px; }
 
 .grey-section {
-  background: #D5D5D5;
+  background: #d5d5d5;
   height: 30px;
   width: 100%; }
   .grey-section p {
@@ -296,7 +304,7 @@ table {
 .button {
   width: 113px;
   height: 30px;
-  background: #FDB523;
+  background: #fdb523;
   border-radius: 7px;
   cursor: pointer;
   color: red;
@@ -348,4 +356,12 @@ table {
   align-self: flex-end; }
 
 .Yellow-color {
-  background: #FDB523; }
+  background: #fdb523; }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue; } }
+
+.bg-text {
+  width: 100%;
+  height: 100%; }
