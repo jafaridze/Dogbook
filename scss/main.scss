@@ -20,7 +20,9 @@ html {
     color: #707070;
   }
 }
-
+.cardbox {
+  box-shadow: 0 1.5px 12px rgba(0, 0, 0, 0.03);
+}
 // slider
 .slider {
   .carousel-indicators li {
@@ -47,30 +49,43 @@ html {
     background: #707070;
   }
 
-  .slider-button-left {
+  // .slider-button-left {
+  //   width: 25px;
+  //   height: 25px;
+  //   background: #fff;
+  //   // transform: rotate(45deg);
+  //   border-radius: 5px;
+
+  //   .fa-chevron-left {
+  //     // transform: rotate(-41deg);
+  //     color: #000;
+  //   }
+  // }
+  .btn {
     width: 25px;
-    height: 25px;
-    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
     transform: rotate(45deg);
-    border-radius: 5px;
-
-    .fa-chevron-left {
-      transform: rotate(-41deg);
-      color: #000;
-    }
   }
 
-  .slider-button-right {
-    width: 25px;
-    height: 25px;
-    background: #000;
-    transform: rotate(41deg);
-    border-radius: 5px;
-
-    .fa-chevron-right {
-      transform: rotate(-41deg);
-    }
+  .btn i {
+    transform: rotate(-45deg);
   }
+
+  // .slider-button-right {
+  //   width: 25px;
+  //   height: 25px;
+  //   background: #000;
+  //   // transform: rotate(41deg);
+  //   border-radius: 5px;
+
+  //   .fa-chevron-right {
+  //     // transform: rotate(-41deg);
+  //     color: #000;
+  //   }
+  // }
 
   .control {
     width: 5%;
@@ -145,7 +160,6 @@ html {
     font-size: 25px;
     margin-top: 53px;
     margin-bottom: 38px;
-    margin-left: 15px;
   }
 
   .col-4 {
@@ -155,7 +169,7 @@ html {
   }
 
   .img-box {
-    padding: 15px;
+    margin: 15px;
 
     img {
       width: 100%;
@@ -201,11 +215,10 @@ html {
 
   .green-container {
     h4 {
-      margin-bottom: 20px;
-      margin-top: 50px;
+      padding-bottom: 20px;
+      padding-top: 50px;
       font-size: 25px;
       color: #474747;
-      margin-left: 15px;
     }
 
     .col-6 {
@@ -244,7 +257,6 @@ html {
   padding-bottom: 38px;
   padding-top: 53px;
   margin: 0px;
-  margin-left: 15px;
 }
 // img-dog
 .bg-dog {
@@ -483,7 +495,6 @@ html {
       }
     }
   }
- 
 
   .about-section {
     .fb-messenger {
@@ -510,26 +521,24 @@ html {
   .wh-button .justify-content-end {
     justify-content: center !important;
   }
-  .dogs .row {
-    justify-content: center !important;
-    
-    .box {
-      margin-bottom: 0px;
+  .dogs {
+    h4 {
+     text-align: center;
+      .box {
+        margin-bottom: 0px;
+      }
     }
   }
-  .wh-button{
-    .white-button {
-        margin-bottom: 0px !important;
-      }
-  }
+
+  
   .background-green {
     background: #ffe0d5 !important;
 
     opacity: 0.05;
   }
   .green-container {
-    .row {
-      justify-content: center;
+    h4 {
+      text-align: center !important;
     }
 
     .text-li {
@@ -537,12 +546,13 @@ html {
     }
   }
 
-  .trade .row {
-    justify-content: center;
+  .trade .h4 {
+    text-align: center;
   }
-  .clinics-row .row {
-    justify-content: center;
+  .clinics-row .h4 {
+   text-align: center;
   }
+
   .footer-section {
     justify-content: center;
     .row {

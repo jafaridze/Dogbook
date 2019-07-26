@@ -1,0 +1,29 @@
+.clinic {
+  .clinic-title {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    color: #474747;
+  }
+}
+.img-col {
+  padding-right: 0px !important;
+  img {
+    width: 100%;
+  }
+}
+.right {
+  -webkit-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
+  box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+}
+.left {
+  -webkit-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
+  box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

@@ -18,43 +18,46 @@
 </head>
 
 <body>
+    <div class=" text-center position-fixed fb-messenger messenger justify-content-center">
+        <i class="fab fa-facebook-messenger "></i>
+        <h6 class="text-center ">მოგვწერეთ</h6>
+    </div>
     <header class="fluid-container dogbook d-flex justify-content-around align-items-center">
 
         <a href="#"><i class="fas fa-bars"></i></a>
         <h3>dog book</h3>
         <div class="d-flex">
-            <a href="#"><i class="fas fa fa-search"></i></a>
+            <a href="#!"><i class="fas fa fa-search"></i></a>
             <a href="#"><i class="fas fa fa-user"></i></a>
         </div>
 
     </header>
-    <section class="lost-dogs container ">
+    <section class="lost-dogs container position-relative">
+
         <div class="two-box">
-            <div class="row title">
+            <div class="row title title2">
                 დაკარგული ძაღლები
             </div>
-            <div class="row search-box">
+            <div class="row search-box search-boxs align-items-center">
                 <div class="left-box col-9 justify-content-start d-flex ">
                     <img src="images/Group 328.png" alt="icon">
                 </div>
                 <div class=" d-flex right-box  col-3">
-
-
-                    <div class="col-10 d-flex justify-content-center align-items-center">
-                        <a class="search">
-                            ძიება
-                        </a>
-                    </div>
-
-                    <div class="col-2 d-flex justify-content-end align-items-center">
-                        <i class="fas fa-search"></i>
-                    </div>
-
-
-
+                   
+                        <div class="col-9">
+                            <form action="#">
+                                <input type="ძიება" class="form-control search text-center" id="inputEmail3"
+                                    placeholder="ძიება">
+                            </form>
+                        </div>
+                        <div class="col-3 d-flex justify-content-end align-items-center">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    
                 </div>
             </div>
         </div>
+
         <!-- lost-dogs -->
 
         <div class="dogs container p-0 m-0 position-relative">
@@ -434,28 +437,31 @@
 
     </section>
     <!-- footer-section -->
-    <footer class="fluid-container footer-section">
-        <div class="container justify-content-center ">
+    <footer class="fluid-container footer-box">
+        <div class="container  footer-section  justify-content-center ">
             <div class="row">
 
-                <div class="col-3 col-md-3 col-sm-12 col-12 d-flex align-items-center justify-content-start">
+                <div class="col-3 col-md-3 col-sm-12 col-12 d-flex align-items-center justify-content-center">
                     <h2>doog book</h2>
                 </div>
-                <div class=" col-6 col-md-6 col-sm-12 col-12 mail-number text-center">
+                <div class=" col-6 col-md-6 col-sm-12 col-12 mail-number text-center  ">
                     <a href="#">mariamlapiashvili@gmail.com</a>
                     <p>995 555 22 26 20</p>
                 </div>
-                <div class="col-3 col-md-3 col-sm-12 col-12 d-flex justify-content-end align-items-center icon1-icon2">
+                <div
+                    class="col-3 col-md-3 col-sm-12 col-12 d-flex justify-content-center align-items-center icon1-icon2">
                     <a href="#" class="icon1"></a>
                     <a href="#" class="icon2"></a>
                 </div>
             </div>
         </div>
-
+        <div class="fluid-container grey-section d-flex justify-content-center align-items-center">
+            <p>© 2019 | PRIVACY POLICY | CREATED BY GEOLAB</p>
+        </div>
     </footer>
-    <section class="fluid-container grey-section d-flex justify-content-center align-items-center">
-        <p>© 2019 | PRIVACY POLICY | CREATED BY GEOLAB</p>
-    </section>
+
+
+
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

@@ -1,51 +1,49 @@
 .dogbook {
-  border-bottom: 1px solid #707070;
+  border-bottom: 1px solid #70707070;
 }
 // lost-dogs
 .lost-dogs {
   .two-box {
-    margin: 50px 0px 50px 0px;
+    padding: 50px 0px 25px 0px;
+
+    img {
+      height: 29px;
+    }
     .title {
       margin: 60px 0px 60px 0px;
       font-size: 25px;
     }
     .search-box {
-      // .left-box img {
-      //   height: 29px;
-      // }
+      padding-right: 15px;
 
       .right-box {
-        width: 270px;
-        height: 30px;
-        font-size: 10px;
         -webkit-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
         -moz-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
         box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         padding: 0px;
-        // &:after {
-        //   content: "";
-        //   background-image: url("../images/search.png");
-        //   color: #000 !important;
-        //   height: 16px;
-        //   width: 16px;
-        //   background-position: center;
-        //   background-repeat: no-repeat;
-        //   background-size: cover;
-        //   margin-right: 5px;
-        // }
+        height: 30px;
+        input {
+          border: 0px;
+          height: 30px;
+          background: no-repeat;
+        }
+        i {
+          color: #707070;
+        }
       }
     }
   }
 }
 .empty-box {
+  padding: 15px !important;
   .white-box {
     height: 100%;
     -webkit-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
     -moz-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
     box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
-    padding: 15px;
+
     .yellow-box {
       width: 80px;
       height: 80px;
@@ -59,10 +57,12 @@
     }
   }
 }
-.footer-section {
-  border-top: 1px solid #707070;
+.footer-box {
+  border-top: 1px solid #70707070;
+
   padding: 40px 0px 40px 0px;
   margin: 0px;
+  padding: 0px;
 }
 .page-item {
   .page-link {
@@ -71,14 +71,33 @@
     line-height: 10px;
     width: 25px;
     padding: 7px;
-    color: #FF7A00;
-   
-  };
+    color: #ff7a00;
+  }
   .first {
     border: 0px;
   }
   .page-number {
     width: 40px;
-    
+  }
+}
+@media only screen and (max-width: 768px) {
+  .empty-box {
+    height: 450px;
+  }
+
+  .title2 {
+    justify-content: center !important;
+    margin: 0px !important;
+  }
+
+  .messenger {
+    top: 30% !important;
+    z-index: 100000000000;
+  }
+  .search-boxs {
+    display: none !important;
+    .right-box {
+      display: none !important;
+    }
   }
 }

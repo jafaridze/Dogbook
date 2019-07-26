@@ -20,9 +20,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	//list-style: none;
-}
+
 blockquote, q {
 	quotes: none;
 }
@@ -38,11 +36,17 @@ table {
 *{
 	text-decoration: none;
 }
-*{
-	//list-style-type: none;
 
-}
 *{
 
 	box-sizing: border-box;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+.no-focus-outline a:focus,
+.no-focus-outline input:focus {
+	outline: none !important;
 }
