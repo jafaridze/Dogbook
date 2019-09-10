@@ -12,7 +12,7 @@ html {
 
   .fa {
     font-size: 17px;
-    width: 38px;
+    width: 30px;
     color: #707070;
   }
 
@@ -170,6 +170,23 @@ html {
 
   .img-box {
     margin: 15px;
+    cursor: pointer;
+
+    .overlay {
+      display: none;
+      border: 4px solid red;
+      width: 100%;
+      height: 100%;
+      background: grey;
+      opacity: 0.5;
+      top: 0px;
+    }
+
+    &:hover {
+      .overlay {
+        display: block;
+      }
+    }
 
     img {
       width: 100%;
@@ -304,9 +321,7 @@ html {
 
 // footer-section
 .footer-section {
-  margin-top: 59px;
-  margin-bottom: 59px;
-
+  margin: 45px 45px;
   h2 {
     font-size: 30px;
     color: #474747;
@@ -317,6 +332,7 @@ html {
     a {
       color: #474747;
       margin-left: 10px;
+      font-size: 14px;
 
       &:before {
         content: "";
@@ -332,7 +348,8 @@ html {
 
     p {
       color: #474747;
-      margin: 15px 0px 0px 0px;
+      font-size: 14px;
+      // margin: 15px 0px 0px 0px;
 
       &:before {
         content: "";
@@ -346,6 +363,24 @@ html {
         margin-left: 10px;
         margin-right: 10px;
       }
+    }
+  }
+  .two-box {
+    margin-top: 10px;
+    line-height: 40px;
+    .number-box {
+      span {
+        margin-right: 5px;
+      }
+    }
+  }
+  .mail-number {
+    div {
+     
+      color: #707070;
+    }
+    a{
+      color: #707070;
     }
   }
 }
@@ -523,14 +558,13 @@ html {
   }
   .dogs {
     h4 {
-     text-align: center;
+      text-align: center;
       .box {
         margin-bottom: 0px;
       }
     }
   }
 
-  
   .background-green {
     background: #ffe0d5 !important;
 
@@ -550,7 +584,7 @@ html {
     text-align: center;
   }
   .clinics-row .h4 {
-   text-align: center;
+    text-align: center;
   }
 
   .footer-section {
