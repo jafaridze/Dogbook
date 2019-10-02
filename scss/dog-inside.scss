@@ -1,6 +1,6 @@
 .lost-dog-inside {
   h4 {
-    margin: 59px 0px 196px 0px;
+    margin: 59px 0px 190px 0px;
   }
 }
 
@@ -20,6 +20,7 @@
   }
 }
 .col-right {
+  padding-left: 28px !important;
   .col-right-text {
     margin-top: 50px;
     h5 {
@@ -30,15 +31,28 @@
     }
   }
 }
-.images-box {
+.images-box-left {
   img {
     width: 156px;
     margin-top: 30px;
   }
-  .fb-box {
-    .fb {
-    }
+  .yelow-button {
+    width: 20px;
+    background-color: #fdb523;
+    right: 0px;
+    height: 125px;
+    margin-top: 30px;
   }
+  .triangle-right {
+    width: 0;
+    height: 15px;
+    border-top: 7px solid transparent;
+    border-left: 10px solid white;
+    border-bottom: 10px solid transparent;
+  }
+}
+.fb-box-right {
+  padding-left: 28px !important;
 }
 .row-adress {
   padding: 50px 0px 50px 0px;
@@ -49,7 +63,9 @@
   height: 29px;
   color: white;
   font-size: 12px;
-  border-radius: 5px;
+  border-radius: 2px;
+  margin-top: 30px;
+
   .fb {
     border: 1px solid white;
     height: 20px;
@@ -63,4 +79,7 @@
       margin: 0px;
     }
   }
+}
+.two-icon{
+  margin-left: 100px;
 }
