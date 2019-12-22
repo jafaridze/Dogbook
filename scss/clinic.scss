@@ -1,4 +1,13 @@
+.form-control {
+  outline: none;
+}
+
 .clinic {
+  .img-close {
+    img {
+      width: 20px;
+    }
+  }
   .clinic-title {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -14,7 +23,23 @@
     height: 224px;
 
     margin: 30px 0px 30px 0px;
+    &:hover {
+      -webkit-box-shadow: 6px 6px 12px -8px rgba(0,0,0,0.75);
+      -moz-box-shadow: 6px 6px 12px -8px rgba(0,0,0,0.75);
+      box-shadow: 6px 6px 12px -8px rgba(0,0,0,0.75);
+    }
   }
+  .close-box {
+    -webkit-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
+    -moz-box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
+    box-shadow: 2px 2px 10px -5px rgba(0, 0, 0, 0.53);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 200px;
+
+    margin: 30px 0px 30px 0px;
+  }
+
   .img-col {
     padding: 0px;
     img {
@@ -23,7 +48,6 @@
     }
   }
   .white-col {
-   
     .top-box {
       h4 {
         font-size: 20px;
@@ -63,7 +87,7 @@
         font-size: 12px;
       }
     }
-   
+
     .dog-number {
       .bg-dog {
         background-image: url("../images/dog.png");
@@ -77,28 +101,34 @@
     }
   }
 }
-// color-orange
-.color-orange {
-  color: #fdb523;
+
+.pagination {
+  padding-top: 12px;
+  padding-bottom: 70px;
 }
-
-
-@media screen and (max-width: 991px){
-    .clinic .bottom-box .stars{
-        width: 70px;
-    }
-    }
+@media screen and (max-width: 991px) {
+  .clinic .bottom-box .stars {
+    width: 70px;
+  }
+}
 // location
-    .location {
-      .bg-location {
-        background-image: url("../images/location.png");
-        width: 15px;
-        height: 15px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        p {
-          font-size: 12px;
-        }
-      }
+.location {
+  .bg-location {
+    background-image: url("../images/location.png");
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    p {
+      font-size: 12px;
     }
+  }
+}
+// button close
+
+.close {
+  span {
+    font-size: 30px;
+  }
+}

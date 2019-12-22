@@ -1,21 +1,87 @@
+.vet-car-title {
+  margin: 30px auto;
+  color: $color-grey;
 
-  .vet-car-background {
-    background-image: url("../images/clinic.png");
-    height: 856px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  p {
+    font-size: $size25;
   }
-  .vet-car-img-rigt{
-      img{
-          height: 265px;
-          margin-bottom: 30px;
-      }
+  .vet-car-time {
+    font-size: $size16;
   }
-  
-
-.vet-car-text{
-    color: #c5c5c5;
-    font-size: 16px;
+}
+.vet-car-background {
+  background-image: url("../images/clinic.png");
+  height: 660px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vet-car-img-rigt {
+  img {
+    height: 200px;
+    margin-bottom: 30px;
+  }
 }
 
+.vet-car-text {
+  color: $color-Light-gray;
+  font-size: $size16;
+ 
+
+}
+.bottom-box {
+  .star-p {
+    font-size: $size16;
+    color: $color-9B9B9B;
+  }
+  .stars {
+    height: 18px;
+    .orange-star {
+      background-image: url("../images/orange-star.png");
+      width: 48px;
+      background-size: contain;
+      height: 15px;
+    }
+    .white-star {
+      background-image: url("../images/white-star.png");
+      width: 80px;
+      background-size: contain;
+      height: 15px;
+    }
+  }
+  .look {
+    .bg-eye {
+      background-image: url("../images/eye@2x.png");
+      width: 15px;
+      height: 15px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .dog-number {
+    .bg-dog {
+      background-image: url("../images/dog.png");
+      width: 15px;
+      height: 15px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0px;
+    }
+  }
+}
+
+.vet-number {
+  p {
+   
+    font-size: $size20;
+   
+  }
+}
+
+.vet-care-p{
+  font-size: $size16;
+  color: $color-Light-gray;
+}
